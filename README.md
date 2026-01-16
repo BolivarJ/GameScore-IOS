@@ -21,7 +21,7 @@ Para garantizar la mejor fidelidad visual y rendimiento, esta app está diseñad
 1. Instala la app **Expo Go** en tu dispositivo móvil.
 2. Escanea el código QR que se encuentra en mi perfil de Expo:
 <p align="center">
-  <img src="./assets/qr-code.png" width="250" alt="Expo QR Code">
+  <img src="./assets/qr-code.PNG" width="250" alt="Expo QR Code">
   <br>
   <a href="https://expo.dev/preview/update?message=Version+estable+para+portafolio&updateRuntimeVersion=1.0.0&createdAt=2026-01-16T04%3A08%3A04.318Z&slug=exp&projectId=a87474b8-73b5-4dc8-8124-357ff22a0396&group=dde3b5cd-8105-428b-8ecd-26865ccde1d7">
     <strong>O haz clic aquí para abrir el proyecto en Expo.dev</strong>
