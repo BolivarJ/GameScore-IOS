@@ -1,29 +1,41 @@
 {
   "expo": {
-    "name": "metacritic-app",
+    "name": "GameScore iOS",
     "slug": "metacritic-app",
     "version": "1.0.0",
+    "owner": "bolivar_jh",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/icon-gamescore-Photoroom.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "metacritic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon-splashgs.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bolidev.gamescore",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a87474b8-73b5-4dc8-8124-357ff22a0396"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a87474b8-73b5-4dc8-8124-357ff22a0396"
+    },
+    "android": {}
   }
 }
