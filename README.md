@@ -1,22 +1,21 @@
 # 🎮 GameScore - Metacritic Clone
 
-GameScore es una aplicación móvil nativa desarrollada con **React Native** y **Expo**. El objetivo del proyecto es replicar la experiencia de usuario de Metacritic, permitiendo visualizar los lanzamientos más recientes, puntuaciones críticas y detalles técnicos de videojuegos.
+GameScore es una aplicación móvil nativa desarrollada con **React Native** y **Expo**. El objetivo del proyecto es replicar un poco sobre Metacritic, permitiendo visualizar puntuaciones críticas y detalles técnicos de videojuegos.
 
-## 🚀 Características Principales
-- **Diseño Nativo Premium**: Interfaz fluida optimizada para iOS y Android con Dark Mode.
+## Características Principales
+- **Diseño Nativo Premium**: Interfaz fluida optimizada para iOS.
 - **Navegación Dinámica**: Implementación de `expo-router` para una navegación basada en archivos fluida.
 - **Visualización de Scores**: Sistema de colores dinámicos según la puntuación del juego.
 - **Carga Optimizada**: Uso de Skeletons personalizados para mejorar la experiencia de espera del usuario.
-- **Logo de Alta Fidelidad**: Integración de assets optimizados para mantener la identidad visual.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 - **Core**: React Native & Expo (SDK 54)
 - **Navegación**: Expo Router
 - **Estilos**: NativeWind (Tailwind CSS para Mobile)
 - **Iconografía**: Lucide Icons & Expo Vector Icons
 - **Gráficos**: React Native SVG
 
-## 📱 Cómo probar la App
+## Cómo probar la App
 Para garantizar la mejor fidelidad visual y rendimiento, esta app está diseñada para ejecutarse de forma nativa:
 
 1. Instala la app **Expo Go** en tu dispositivo móvil.
@@ -28,4 +27,4 @@ Para garantizar la mejor fidelidad visual y rendimiento, esta app está diseñad
     <strong>O haz clic aquí para abrir el proyecto en Expo.dev</strong>
   </a>
 </p>
-3. ¡Explora!
+
